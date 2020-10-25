@@ -1,4 +1,4 @@
-class OrderController < ApplicationController
+class RegistrationController < ApplicationController
 
     #create
     get '/registeration/new' do

@@ -1,4 +1,4 @@
-class Registration < ActivedRecord::Base
+class Registration < ActiveRecord::Base
     belongs_to :user
 
 
