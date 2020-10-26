@@ -1,5 +1,6 @@
 require './config/environment'
 
+#Manages non model based routing and sessions
 class ApplicationController < Sinatra::Base
 
   configure do
