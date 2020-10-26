@@ -8,6 +8,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/" do
+    @user = User.find
     erb :welcome
   end
 
