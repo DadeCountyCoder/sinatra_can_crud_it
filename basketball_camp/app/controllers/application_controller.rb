@@ -14,6 +14,11 @@ class ApplicationController < Sinatra::Base
     erb :welcome
   end
 
+  get "/users" do
+    # erb :welcome
+   "Hello World this is my user page"
+ end
+
   post '/signup' do
     User.create(name: params[:username], password: params[:password])
     redirect "/goodbye"
