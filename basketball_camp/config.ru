@@ -6,7 +6,6 @@ end
 
 
 #mounting controllers
-
 use RegistrationController
 use UserController
 run ApplicationController

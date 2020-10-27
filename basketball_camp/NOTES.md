@@ -1,6 +1,7 @@
 
 Sinatra Project
-
+set up classes 
+set up database (look up seed.rb usefullness)
 Employ MVC, model , view , controller.
 
 
