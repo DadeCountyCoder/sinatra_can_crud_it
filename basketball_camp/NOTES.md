@@ -14,7 +14,7 @@ attributes name, password, email
 User can sign up and login and view their form.
 
 registration attribute 
-postion they play primary
-postion they play secondary
-drill(skill) they wanna focus on
 fav player
+postion they play
+drill(skill) they wanna focus on
+

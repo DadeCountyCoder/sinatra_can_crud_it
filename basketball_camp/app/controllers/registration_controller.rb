@@ -6,7 +6,7 @@ class RegistrationController < ApplicationController
         #"render registration form"
     end
 
-    post '/orders/' do
+    post '/registrations/' do
         "process our form"
       
     end
