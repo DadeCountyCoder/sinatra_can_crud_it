@@ -1,1 +1,10 @@
 This is a show page
+Address: <%= @registration.address%><br>
+Favorite_player: <%= @registration.favorite_player%><br>
+Player_position: <%= @registration.player_position%><br>
+Jersey_number: <%= @registration.jersey_number%><br>
+
+<form method="post" action="/registrations<%= @registration.id %>">
+    <input id="hidden" type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="delete">
+</form>

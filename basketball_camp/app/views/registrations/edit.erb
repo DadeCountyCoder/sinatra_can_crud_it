@@ -1,0 +1,11 @@
+<h1> This is the registration page</h1>
+
+<form action="/registrations/<%= @registration%> %" method="post">
+    <input id="hidden" type="hidden" name="method" value="patch">
+
+    Address: <input type=text value="<%= @registration.address%>"name="address">
+    Favorite_player: <input type=text value="<%= @registration.favorite_player%>"name="favorite_player">
+    Player_position: <input type=password value="<%= @registration.player_position%>"name="player_position">
+    Jersey_Number: <input type=number value="<%= @order.jersey_number%>"name="jersey_number">
+    <input type=submit>
+<form>

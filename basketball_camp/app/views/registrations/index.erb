@@ -1,0 +1,18 @@
+<style> body {background-color: yellow;}
+</style>
+<h1>Time to BALLOUT!</h1>
+<p> Please <a href="/signup">Sign Up</a> or <a href="/login">Log In</a> to start your journey.</p>
+
+
+ <% end %>
+
+
+ <%= @registration.each do |order| %>
+
+
+Registration Number: <%= registration.id%>
+Address: <%= registration.address%>
+<%# Total: <%= registration.total%> %>
+Username: <%= registration.user%>
+
+end
